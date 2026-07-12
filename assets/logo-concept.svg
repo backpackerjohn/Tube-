@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+<title id="title">EV Second Opinion logo concept</title><desc id="desc">A battery combined with a magnifying glass beside the EV Second Opinion wordmark.</desc>
+<rect width="1600" height="500" rx="36" fill="#0B1623"/>
+<g transform="translate(70 85)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="0" y="35" width="330" height="210" rx="34" stroke="#F4F7F8" stroke-width="22"/>
+  <path d="M330 105h34v70h-34" stroke="#F4F7F8" stroke-width="22"/>
+  <rect x="42" y="82" width="58" height="116" rx="12" fill="#32D6A0" stroke="none"/>
+  <rect x="122" y="82" width="58" height="116" rx="12" fill="#32D6A0" stroke="none"/>
+  <rect x="202" y="82" width="58" height="116" rx="12" fill="#FFB547" stroke="none"/>
+  <circle cx="280" cy="238" r="78" stroke="#32D6A0" stroke-width="22" fill="#0B1623"/>
+  <path d="M336 294l78 78" stroke="#32D6A0" stroke-width="28"/>
+  <circle cx="280" cy="238" r="12" fill="#FFB547" stroke="none"/>
+</g>
+<text x="560" y="220" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="800" letter-spacing="1">EV SECOND OPINION</text>
+<text x="566" y="305" fill="#32D6A0" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="5">KNOW BEFORE YOU BUY</text>
+<line x1="565" y1="348" x2="1490" y2="348" stroke="#1E2935" stroke-width="4"/>
+<text x="566" y="405" fill="#8EA0AF" font-family="Arial, Helvetica, sans-serif" font-size="30">Battery evidence • Charging fit • Warranty • Recalls • Cost</text>
+</svg>
