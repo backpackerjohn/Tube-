@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">EV Second Opinion thumbnail template</title><desc id="desc">Reusable thumbnail layout with vehicle silhouette, decision phrase and evidence score strip.</desc>
+<defs><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#263747" stroke-width="1"/></pattern><linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#0B1623"/><stop offset="1" stop-color="#1E2935"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#fade)"/><rect width="1280" height="720" fill="url(#grid)" opacity=".65"/>
+<g transform="translate(54 42) scale(.34)"><rect x="0" y="35" width="330" height="210" rx="34" fill="none" stroke="#F4F7F8" stroke-width="22"/><path d="M330 105h34v70h-34" fill="none" stroke="#F4F7F8" stroke-width="22"/><rect x="42" y="82" width="58" height="116" rx="12" fill="#32D6A0"/><rect x="122" y="82" width="58" height="116" rx="12" fill="#32D6A0"/><rect x="202" y="82" width="58" height="116" rx="12" fill="#FFB547"/><circle cx="280" cy="238" r="78" fill="#0B1623" stroke="#32D6A0" stroke-width="22"/><path d="M336 294l78 78" stroke="#32D6A0" stroke-width="28" stroke-linecap="round"/></g>
+<text x="205" y="95" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800">EV SECOND OPINION</text>
+<g transform="translate(65 185)"><path d="M78 260c20-83 78-147 174-166l120-24c76-15 142-2 198 51l73 69c31 29 50 67 56 110H20c6-17 24-30 58-40Z" fill="#8EA0AF" opacity=".85"/><path d="M225 102l38 123h263l-95-118c-20-25-45-36-76-30Z" fill="#0B1623" opacity=".8"/><circle cx="183" cy="306" r="58" fill="#0B1623" stroke="#F4F7F8" stroke-width="14"/><circle cx="577" cy="306" r="58" fill="#0B1623" stroke="#F4F7F8" stroke-width="14"/></g>
+<rect x="742" y="160" width="470" height="380" rx="32" fill="#0B1623" stroke="#32D6A0" stroke-width="5"/>
+<text x="977" y="280" text-anchor="middle" fill="#FFB547" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="800">DECISION PHRASE</text>
+<text x="977" y="405" text-anchor="middle" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="900">BUY?</text>
+<text x="977" y="475" text-anchor="middle" fill="#8EA0AF" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with 2–4 words</text>
+<rect x="0" y="625" width="1280" height="95" fill="#F4F7F8"/>
+<text x="64" y="684" fill="#0B1623" font-family="Courier New, monospace" font-size="31" font-weight="700">BATTERY 18/25  •  CHARGING 14/20  •  VERDICT: CONDITIONAL</text>
+</svg>
