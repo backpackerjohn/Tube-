@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440" role="img" aria-labelledby="title desc">
+<title id="title">EV Second Opinion YouTube banner concept</title><desc id="desc">Dark technical banner with the channel name, promise and five-step evidence chain.</desc>
+<defs><pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="#1E2935" stroke-width="2"/></pattern></defs>
+<rect width="2560" height="1440" fill="#0B1623"/><rect width="2560" height="1440" fill="url(#grid)" opacity=".7"/>
+<path d="M0 1220L650 750 1180 980 1870 410 2560 720V1440H0Z" fill="#1E2935" opacity=".58"/>
+<g transform="translate(1020 330)"><rect width="360" height="210" rx="32" fill="none" stroke="#F4F7F8" stroke-width="18"/><path d="M360 72h35v66h-35" fill="none" stroke="#F4F7F8" stroke-width="18"/><rect x="38" y="55" width="65" height="100" rx="10" fill="#32D6A0"/><rect x="124" y="55" width="65" height="100" rx="10" fill="#32D6A0"/><rect x="210" y="55" width="65" height="100" rx="10" fill="#FFB547"/><circle cx="310" cy="165" r="66" fill="#0B1623" stroke="#32D6A0" stroke-width="18"/><path d="M357 212l70 70" stroke="#32D6A0" stroke-width="24" stroke-linecap="round"/></g>
+<text x="1280" y="710" text-anchor="middle" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="128" font-weight="800">EV SECOND OPINION</text>
+<text x="1280" y="820" text-anchor="middle" fill="#32D6A0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800">KNOW THE BATTERY. KNOW THE COST.</text>
+<text x="1280" y="900" text-anchor="middle" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="42">Evidence-first used EV buyer files • New every week</text>
+<g font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle"><text x="530" y="1120" fill="#32D6A0">BATTERY</text><text x="900" y="1120" fill="#F4F7F8">CHARGING</text><text x="1280" y="1120" fill="#F4F7F8">WARRANTY</text><text x="1660" y="1120" fill="#F4F7F8">RECALLS</text><text x="2030" y="1120" fill="#FFB547">COST</text></g>
+<path d="M630 1108h170M1005 1108h170M1385 1108h170M1765 1108h170" stroke="#8EA0AF" stroke-width="5" stroke-dasharray="14 14"/>
+<rect x="507" y="507" width="1546" height="423" rx="20" fill="none" stroke="#32D6A0" stroke-width="3" stroke-dasharray="12 12" opacity=".35"/>
+</svg>
