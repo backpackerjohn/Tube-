@@ -1,0 +1,43 @@
+Section,Input,Value,Unit,Annualized Formula/Value,Notes
+Vehicle,Purchase price,,USD,,Use negotiated vehicle price before taxes and fees
+Vehicle,Sales tax and required fees,,USD,,Use local itemized quote
+Vehicle,Dealer documentation and mandatory fees,,USD,,Separate optional products
+Vehicle,Trade-in net effect,,USD,,Enter negative only when included in comparison
+Vehicle,Down payment,,USD,,Cash-flow input; do not double-count in total ownership cost
+Vehicle,Loan principal,,USD,,Enter financed amount
+Vehicle,APR,,percent,,Enter as percentage such as 7.25
+Vehicle,Loan term,,months,,For cash-flow comparison
+Vehicle,Monthly payment,,USD/month,=B11*12,Use lender quote or payment formula in a working copy
+Vehicle,Expected ownership period,,years,,Planning assumption
+Driving,Annual miles,,miles/year,,Buyer-specific input
+Driving,Observed efficiency,,miles/kWh,,Use conservative vehicle/use-case estimate and label source
+Charging,Home charging share,,percent,,Enter as percentage
+Charging,Home electricity rate,,USD/kWh,,Include applicable delivery charges when known
+Charging,Public charging share,,percent,,Home and public shares should total 100%
+Charging,Public charging rate,,USD/kWh,,Use buyer's normal network/location price
+Charging,Charging loss allowance,,percent,,Optional planning assumption; label it clearly
+Charging,Annual energy needed,,kWh/year,=B13/B14*(1+B19),Annual miles divided by efficiency, adjusted by chosen loss allowance
+Charging,Annual home energy cost,,USD/year,=B20*B15*B16,Home share expressed as percentage
+Charging,Annual public energy cost,,USD/year,=B20*B17*B18,Public share expressed as percentage
+Charging,Charger hardware,,USD,,One-time cost
+Charging,Electrical installation,,USD,,Use written local quote; no DIY assumption
+Insurance,Monthly insurance quote,,USD/month,=B25*12,Quote exact VIN where possible
+Registration,Annual registration and EV fees,,USD/year,=B27,Local input
+Maintenance,Tire replacement cost,,USD,,Use correct specification and local quote
+Maintenance,Expected tire interval,,miles,,Planning input, not a guarantee
+Maintenance,Annualized tire cost,,USD/year,=B29/B30*B13,Replacement cost divided by interval times annual miles
+Maintenance,12-volt battery allowance,,USD/year,=B32,Optional buyer-selected allowance
+Maintenance,Routine service allowance,,USD/year,=B33,Use model schedule and local prices
+Risk,Repair reserve,,USD/year,=B34,Buyer-selected risk tolerance; not a failure forecast
+Other,Parking/tolls difference,,USD/year,=B35,Only incremental difference versus comparison vehicle
+Other,Subscriptions/connectivity,,USD/year,=B36,Include only required or chosen paid services
+Other,Home charger annualized,,USD/year,=(B23+B24)/B12,One-time charger costs divided by ownership years
+Summary,Annual financing cash flow,,USD/year,=B11*12,Useful for cash-flow view
+Summary,Annual operating cost,,USD/year,=SUM(E21:E22)+E26+E27+E31+E32+E33+E34+E35+E36+E37,Charging plus insurance, fees, maintenance, reserve and other
+Summary,Annual cash flow total,,USD/year,=E39+E40,Financing plus operating costs
+Summary,Operating cost per mile,,USD/mile,=E40/B13,Excludes vehicle depreciation and financing principal
+Comparison,Comparison vehicle annual financing,,USD/year,,Enter separately
+Comparison,Comparison vehicle annual operating,,USD/year,,Use the same local-input method
+Comparison,Annual difference,,USD/year,=E41-(B44+B45),Positive means EV scenario costs more under entered assumptions
+Decision,Unknowns remaining,,text,,List VIN, inspection, warranty, quote or route evidence still missing
+Decision,Last verified,,date,,Refresh rates, policy, warranty and vehicle-specific inputs before use
